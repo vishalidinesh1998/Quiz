@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+<!-- Stylesheet -->
+ <link rel="Stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="quiz">
+        <h1 class="section1">Quiz</h1>
+        <form id="form">
+            <div class="question">
+                <lable>Which keyword is used to declare a variable in JavaScript?</lable>
+                <div>
+                    <input type="radio" value="var" name="q1">var
+                    <input type="radio" value="int" name="q1">int
+                    <input type="radio" value="string" name="q1">string
+                </div>
+            </div>
+            <div class="question">
+                <lable> What will typeof "Hello" return?</lable>
+                <div>
+                    <input type="radio" value="string" name="q2">string
+                    <input type="radio" value="boolean" name="q2">Boolean
+                    <input type="radio" value="num" name="q2">number
+                </div>
+            </div>
+            <div class="question">
+                <lable> How do you write a comment in JavaScript?</lable>
+                <div>
+                    <input type="radio" value="sigle" name="q3">!-- comment --
+                    <input type="radio" value="double" name="q3">// comment
+                    <input type="radio" value="star" name="q3">* comment *
+                </div>
+            </div>
+            <div class="question">
+                <lable>JavaScript is a ___-side programming language.</lable>
+                <div>
+                    <input type="radio" value="client" name="q4">Client
+                    <input type="radio" value="server" name="q4">Server
+                    <input type="radio" value="both" name="q4">Both
+                </div>
+            </div>
+            <div class="question">
+                <lable>What is the correct syntax to output "Hello World" in JavaScript?</lable>
+                <div>
+                    <input type="radio" value="print" name="q5">print("Hello World")
+                    <input type="radio" value="console" name="q5">console.log("Hello World")
+                    <input type="radio" value="echo" name="q5">echo("Hello World")
+                </div>
+            </div>
+
+            <button type="submit" id="submit">Submit</button>
+
+        </form>
+        <div class="section2">
+        <h1>Result</h1>
+        <h2 id="result"></h2>
+    </div>
+    </div>
+    <script src="scrpit.js"></script>
+</body>
+
+</html>
